@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="30dp"
+            android:layout_toStartOf="@+id/textView3"
+            android:text="@string/_0"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:text="@string/x"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="150dp"
+            android:layout_toEndOf="@id/textView3"
+            android:text="@string/_0"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:text="@string/R"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView5"
+            android:layout_marginTop="90dp"
+            android:layout_marginEnd="30dp"
+            android:layout_toStartOf="@id/button5"
+            android:backgroundTint="@color/buttons"
+            android:text="@string/_3"
+            tools:ignore="DuplicateClickableBoundsCheck" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:backgroundTint="@color/buttons"
+            android:text="@string/_4" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView5"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="90dp"
+            android:layout_toEndOf="@id/button5"
+            android:backgroundTint="@color/buttons"
+            android:text="@string/_5" />
+
+        <TextView
+            android:id="@+id/textLevel"
+            android:layout_width="88dp"
+            android:layout_height="34dp"
+            android:layout_below="@id/button5"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/level"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textScore"
+            android:layout_width="88dp"
+            android:layout_height="34dp"
+            android:layout_below="@id/button5"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="50dp"
+            android:text="@string/score"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

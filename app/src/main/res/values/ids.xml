@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="num1" type="id" />
+    <item name="num2" type="id" />
+    <item name="ScoreView" type="id" />
+    <item name="levelView" type="id" />
+    <item name="answ1" type="id" />
+    <item name="answ2" type="id" />
+    <item name="answ3" type="id" />
+</resources>
